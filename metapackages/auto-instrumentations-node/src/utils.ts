@@ -20,6 +20,7 @@ import { Instrumentation } from '@opentelemetry/instrumentation';
 import { AmqplibInstrumentation } from '@opentelemetry/instrumentation-amqplib';
 import { AwsLambdaInstrumentation } from '@opentelemetry/instrumentation-aws-lambda';
 import { AwsInstrumentation } from '@opentelemetry/instrumentation-aws-sdk';
+import { AzureSdkInstrumentation } from '@opentelemetry/instrumentation-azure-sdk';
 import { BunyanInstrumentation } from '@opentelemetry/instrumentation-bunyan';
 import { CassandraDriverInstrumentation } from '@opentelemetry/instrumentation-cassandra-driver';
 import { ConnectInstrumentation } from '@opentelemetry/instrumentation-connect';
@@ -96,6 +97,7 @@ const InstrumentationMap = {
   '@opentelemetry/instrumentation-amqplib': AmqplibInstrumentation,
   '@opentelemetry/instrumentation-aws-lambda': AwsLambdaInstrumentation,
   '@opentelemetry/instrumentation-aws-sdk': AwsInstrumentation,
+  '@opentelemetry/instrumentation-azure-sdk': AzureSdkInstrumentation,
   '@opentelemetry/instrumentation-bunyan': BunyanInstrumentation,
   '@opentelemetry/instrumentation-cassandra-driver':
     CassandraDriverInstrumentation,

@@ -67,6 +67,11 @@ pkg:instrumentation-aws-sdk:
           - plugins/node/opentelemetry-instrumentation-aws-sdk/**
           - packages/opentelemetry-test-utils/**
           - packages/opentelemetry-propagation-utils/**
+pkg:instrumentation-azure-sdk:
+  - changed-files:
+      - any-glob-to-any-file:
+          - plugins/node/opentelemetry-instrumentation-azure-sdk/**
+          - packages/opentelemetry-test-utils/**
 pkg:instrumentation-bunyan:
   - changed-files:
       - any-glob-to-any-file:
